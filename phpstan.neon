@@ -1,0 +1,11 @@
+parameters:
+  level: 5
+  excludePaths:
+    - vendor
+  scanFiles:
+    - cardanopress-auctions.php
+  scanDirectories:
+    - %currentWorkingDirectory%/.cache/wordpress
+    - %currentWorkingDirectory%/.cache/wordpress-tests-lib
+  dynamicConstantNames:
+    - CP_AUCTIONS_FILE
