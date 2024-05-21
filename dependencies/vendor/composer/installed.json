@@ -67,17 +67,17 @@
         },
         {
             "name": "cardanopress/framework",
-            "version": "v2.3.0",
-            "version_normalized": "2.3.0.0",
+            "version": "v2.6.0",
+            "version_normalized": "2.6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CardanoPress/framework.git",
-                "reference": "fd6b75ccb4d829a86f8c95db99293f7e373b345c"
+                "reference": "32329bac8083902efd50f00fa810d57c155aba0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CardanoPress/framework/zipball/fd6b75ccb4d829a86f8c95db99293f7e373b345c",
-                "reference": "fd6b75ccb4d829a86f8c95db99293f7e373b345c",
+                "url": "https://api.github.com/repos/CardanoPress/framework/zipball/32329bac8083902efd50f00fa810d57c155aba0a",
+                "reference": "32329bac8083902efd50f00fa810d57c155aba0a",
                 "shasum": ""
             },
             "require": {
@@ -85,9 +85,10 @@
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
+                "automattic/jetpack-autoloader": "^2.12",
                 "themeplate/tester": "^2.1"
             },
-            "time": "2023-10-27T03:58:39+00:00",
+            "time": "2024-05-20T06:19:50+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -120,7 +121,7 @@
             ],
             "support": {
                 "issues": "https://github.com/CardanoPress/framework/issues",
-                "source": "https://github.com/CardanoPress/framework/tree/v2.3.0"
+                "source": "https://github.com/CardanoPress/framework/tree/v2.6.0"
             },
             "install-path": "../cardanopress/framework"
         },
@@ -177,52 +178,6 @@
                 "source": "https://github.com/kermage/External-Update-Manager/tree/v2.2.0"
             },
             "install-path": "../kermage/external-update-manager"
-        },
-        {
-            "name": "themeplate/cpt",
-            "version": "v2.2.0",
-            "version_normalized": "2.2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ThemePlate/CPT.git",
-                "reference": "ed093fc454cf6ababf07fd64549221e789be47aa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ThemePlate/CPT/zipball/ed093fc454cf6ababf07fd64549221e789be47aa",
-                "reference": "ed093fc454cf6ababf07fd64549221e789be47aa",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.4|^8.0"
-            },
-            "require-dev": {
-                "themeplate/tester": "^2.0"
-            },
-            "time": "2023-03-04T04:07:02+00:00",
-            "type": "library",
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "ThemePlate\\CPT\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Gene Alyson Fortunado Torcende",
-                    "email": "genealyson.torcende@gmail.com"
-                }
-            ],
-            "description": "ThemePlate custom post types and taxonomies",
-            "support": {
-                "issues": "https://github.com/ThemePlate/CPT/issues",
-                "source": "https://github.com/ThemePlate/CPT/tree/v2.2.0"
-            },
-            "install-path": "../themeplate/cpt"
         }
     ],
     "dev": true,

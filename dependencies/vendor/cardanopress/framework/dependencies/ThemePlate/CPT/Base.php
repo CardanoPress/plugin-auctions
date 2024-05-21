@@ -3,11 +3,11 @@
 /**
  * Setup custom posts and taxonomies
  *
- * @package ThemePlate
+ * @package CardanoPress\Dependencies\ThemePlate
  * @since 0.1.0
  */
 
-namespace CardanoPress\Auctions\Dependencies\ThemePlate\CPT;
+namespace CardanoPress\Dependencies\ThemePlate\CPT;
 
 abstract class Base implements CommonInterface {
 

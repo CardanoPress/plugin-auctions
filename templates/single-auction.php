@@ -13,7 +13,7 @@ $postId = get_the_ID();
 $address = get_post_meta($postId, 'auction_address', true);
 $amount = get_post_meta($postId, 'auction_amount', true);
 
-get_header();
+cardanoPress()->compatibleHeader();
 
 ?>
 
@@ -47,4 +47,4 @@ get_header();
 
 <?php
 
-get_footer();
+cardanoPress()->compatibleFooter();

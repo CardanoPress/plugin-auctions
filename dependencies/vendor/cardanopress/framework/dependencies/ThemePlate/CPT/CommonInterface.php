@@ -1,10 +1,10 @@
 <?php
 
 /**
- * @package ThemePlate
+ * @package CardanoPress\Dependencies\ThemePlate
  */
 
-namespace CardanoPress\Auctions\Dependencies\ThemePlate\CPT;
+namespace CardanoPress\Dependencies\ThemePlate\CPT;
 
 interface CommonInterface {
 

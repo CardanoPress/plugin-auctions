@@ -7,7 +7,7 @@
 
 namespace CardanoPress\Auctions;
 
-use CardanoPress\Auctions\Dependencies\ThemePlate\CPT\PostType;
+use CardanoPress\Dependencies\ThemePlate\CPT\PostType;
 use CardanoPress\Dependencies\ThemePlate\Meta\PostMeta;
 use CardanoPress\Foundation\AbstractAdmin;
 

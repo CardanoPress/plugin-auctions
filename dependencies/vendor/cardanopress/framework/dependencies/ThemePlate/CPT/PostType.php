@@ -3,11 +3,11 @@
 /**
  * Setup custom post types
  *
- * @package ThemePlate
+ * @package CardanoPress\Dependencies\ThemePlate
  * @since 0.1.0
  */
 
-namespace CardanoPress\Auctions\Dependencies\ThemePlate\CPT;
+namespace CardanoPress\Dependencies\ThemePlate\CPT;
 
 class PostType extends Base {
 

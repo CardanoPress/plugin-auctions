@@ -51,10 +51,6 @@ class ComposerStaticInit945cffb9c28349bcb5b23567b1160dfe
     public static $classMap = array (
         'CardanoPress\\Auctions\\Admin' => __DIR__ . '/../..' . '/../src/Admin.php',
         'CardanoPress\\Auctions\\Application' => __DIR__ . '/../..' . '/../src/Application.php',
-        'CardanoPress\\Auctions\\Dependencies\\ThemePlate\\CPT\\Base' => __DIR__ . '/../..' . '/ThemePlate/CPT/Base.php',
-        'CardanoPress\\Auctions\\Dependencies\\ThemePlate\\CPT\\CommonInterface' => __DIR__ . '/../..' . '/ThemePlate/CPT/CommonInterface.php',
-        'CardanoPress\\Auctions\\Dependencies\\ThemePlate\\CPT\\PostType' => __DIR__ . '/../..' . '/ThemePlate/CPT/PostType.php',
-        'CardanoPress\\Auctions\\Dependencies\\ThemePlate\\CPT\\Taxonomy' => __DIR__ . '/../..' . '/ThemePlate/CPT/Taxonomy.php',
         'CardanoPress\\Auctions\\Installer' => __DIR__ . '/../..' . '/../src/Installer.php',
         'CardanoPress\\Auctions\\Manifest' => __DIR__ . '/../..' . '/../src/Manifest.php',
         'CardanoPress\\Auctions\\Templates' => __DIR__ . '/../..' . '/../src/Templates.php',
