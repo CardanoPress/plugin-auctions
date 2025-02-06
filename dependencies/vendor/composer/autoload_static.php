@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit945cffb9c28349bcb5b23567b1160dfe
+class ComposerStaticInitb338fc2a1055be229ce3206ee3fb6ec6
 {
     public static $files = array (
         '1adb4ff695388b04d573ca23d2979f89' => __DIR__ . '/..' . '/cardanopress/framework/dependencies/compatibility.php',
@@ -52,6 +52,7 @@ class ComposerStaticInit945cffb9c28349bcb5b23567b1160dfe
         'CardanoPress\\Auctions\\Admin' => __DIR__ . '/../..' . '/../src/Admin.php',
         'CardanoPress\\Auctions\\Application' => __DIR__ . '/../..' . '/../src/Application.php',
         'CardanoPress\\Auctions\\Installer' => __DIR__ . '/../..' . '/../src/Installer.php',
+        'CardanoPress\\Auctions\\Licenser' => __DIR__ . '/../..' . '/../src/Licenser.php',
         'CardanoPress\\Auctions\\Manifest' => __DIR__ . '/../..' . '/../src/Manifest.php',
         'CardanoPress\\Auctions\\Templates' => __DIR__ . '/../..' . '/../src/Templates.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
@@ -60,9 +61,9 @@ class ComposerStaticInit945cffb9c28349bcb5b23567b1160dfe
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit945cffb9c28349bcb5b23567b1160dfe::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit945cffb9c28349bcb5b23567b1160dfe::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit945cffb9c28349bcb5b23567b1160dfe::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitb338fc2a1055be229ce3206ee3fb6ec6::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitb338fc2a1055be229ce3206ee3fb6ec6::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitb338fc2a1055be229ce3206ee3fb6ec6::$classMap;
 
         }, null, ClassLoader::class);
     }
