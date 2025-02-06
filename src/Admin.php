@@ -57,7 +57,7 @@ class Admin extends AbstractAdmin
                 'type' => 'text',
             ],
             'amount' => [
-                'title' => __('Amount in ADA', 'cardanopress'),
+                'title' => __('Amount in ADA', 'cardanopress-auctions'),
                 'type' => 'number',
                 'default' => 1,
                 'options' => [
